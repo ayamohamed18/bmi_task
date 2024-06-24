@@ -1,0 +1,31 @@
+name: bmi_task
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_3d_choice_chip: ^0.1.4
+  swipeable_button_view: ^0.0.2
+  page_transition: ^2.0.5
+  pretty_gauge: ^1.0.1
+  share_plus: ^4.0.4  
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/bmi_logo.png
+    - lib/assets/man.png
+    - lib/assets/woman.png
